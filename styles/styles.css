@@ -1,0 +1,54 @@
+/* nav related styles */
+.nav-styles{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-items{
+    display: flex;
+    gap: 50px; 
+}
+.max-width{
+    max-width: 1140px;
+    margin: 30px auto;
+}
+
+ul li img{
+    width: 24px;
+    height: 24px;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.li-color{
+    color:#8987A1;
+}
+/* color-related-styles */
+body{
+    color: #1E1E1E;
+}
+.color-1{
+    color: #E95A08;
+}
+.color-2{
+  color:#000000;}
+
+/* banner related styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 434px;
+}
+.banner-styles{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-des{
+    font-size: 1.375rem;
+    font-weight: 400;
+}
