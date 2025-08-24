@@ -39,6 +39,10 @@ body{
 .color-3{
     color: black;
 }
+.color-4{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
 
 /* banner related styles */
 .banner{
@@ -107,6 +111,41 @@ body{
 }
 .flower-des{
     text-align: left;
-    align-items: center;
-    justify-content: c
 }
+
+.plants-photo{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 28px; 
+    margin-top: 100px; 
+    position: rela;
+    text-align: center; 
+}
+.coloumn-1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.img{
+    position: relative;
+}
+
+.plants-photo img{
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    background-color:#C8C8C8; 
+}
+.sec-3{
+    margin-top: 133px; 
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px black;
+    }
