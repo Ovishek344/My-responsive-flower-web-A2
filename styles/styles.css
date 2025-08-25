@@ -6,7 +6,8 @@
 }
 .nav-items{
     display: flex;
-    gap: 50px; 
+    gap: 30px; 
+    font-weight: 700;
 }
 .max-width{
     max-width: 1140px;
@@ -49,7 +50,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 434px;
 }
 .banner-styles{
     font-size: 4rem;
@@ -64,7 +64,6 @@ body{
 .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* justify-content: space-between; */
     gap: 16px;
     margin-top: 50px;
 }
@@ -189,8 +188,58 @@ footer input[type="submit"] {
     justify-content: space-between;
 }
 .social-logo{
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     align-items: center;
+}
+
+
+/* media quary */
+@media screen and (max-width: 576px){
+        .hide-on-mobile{
+            display: none;
+        }
+        .nav-items{
+            gap: 10px;
+        }
+        .banner{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .banner-styles{
+            font-size: 2rem;
+        }
+        .banner img{
+            width: 100%;
+        }
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            width: 100%;
+         }
+        .car-item img{
+            width: 100%;
+        }
+        .plants-photo, .flower-plants{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .flower-plants img{
+            width: 100%;
+        }
+        .plants-photo img{
+            width: 100%;
+        }
+        .input{
+            height: 276px;
+            padding: 25px;
+            padding-bottom: 125px;
+        }
+        .footer-sec{
+            flex-direction: column;
+        }
+        
 }
